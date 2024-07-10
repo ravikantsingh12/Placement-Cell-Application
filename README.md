@@ -58,6 +58,8 @@ The application will run on `http://localhost:8000`.
 4. **Company Details Page:**
    ![Company Details Page](public/images/CompanyListPage.PNG)
 
+- [Click here](https://placement-cell-application-djcl.onrender.com/) to access this deployed project
+
 ## Contributors
 
 - [Ravikant Singh](https://github.com/ravikantsingh12)
