@@ -58,6 +58,9 @@ The application will run on `http://localhost:8000`.
 4. **Company Details Page:**
    ![Company Details Page](public/images/CompanyListPage.PNG)
 
+5. **Details in CSV Page:**
+   ![Details in CSV Page](public/images/DetailsInCSV.PNG)
+
 - [Click here](https://placement-cell-application-djcl.onrender.com/) to access this deployed project
 
 ## Contributors
