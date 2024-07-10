@@ -1,0 +1,80 @@
+<div class="row">
+  <div class="col-12 col-md-6">
+    <h1 class="mb-5 mt-3">
+      <i class="bi bi-check2-circle"></i> "Launch Your Career with <br />
+      Confidence."
+    </h1>
+    <img src="/images/office-girl.jpg" class="img-fluid" alt="" />
+  </div>
+  <div
+    class="col-12 col-md-6"
+    style="
+      background: rgb(230, 224, 224);
+      border: 5px solid #0a3535;
+      border-radius: 20px;
+    "
+  >
+    <h3 class="text-success mt-3">
+      <strong><i class="bi bi-journal"></i> Register</strong>
+    </h3>
+    <form action="/users/create" method="post" class="mt-5 mb-5">
+      <div class="mb-3">
+        <label for="name" class="form-label"
+          ><i class="bi bi-person"></i> Name</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label"
+          ><i class="bi bi-envelope"></i> Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="abc@email.com"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label"
+          ><i class="bi bi-upc-scan"></i> Password</label
+        >
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label"
+          ><i class="bi bi-upc-scan"></i> Confirm Password</label
+        >
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          name="confirmPassword"
+          placeholder="Confirm your password"
+          required
+        />
+      </div>
+      <p class="text-dark">
+        Already resgistered?
+        <a href="/users/signin" class="my-form-redirection">Login</a>
+      </p>
+      <button type="submit" class="btn btn-success">Register</button>
+    </form>
+  </div>
+</div>
